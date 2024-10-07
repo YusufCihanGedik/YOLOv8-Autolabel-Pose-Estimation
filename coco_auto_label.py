@@ -5,10 +5,10 @@ import os
 import uuid
 import json
 
-yolo_model_path = r'C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\model\yolov8x-pose.pt'
-video_source = r"C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\video_img\kesim.mp4"
+yolo_model_path = r'C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\model\best.pt'
+video_source = r"C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\videos\1.mp4"
 
-OUTPUT_DIR = r'C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\yolov8pose_output\coco_pose3'
+OUTPUT_DIR = r'C:\Users\Gedik\Desktop\ComputerVision\DeepLearning\yolov8-pose\yolov8pose_output\kesim_2'
 LABELS_DIR = os.path.join(OUTPUT_DIR, 'labels')
 IMAGES_DIR = os.path.join(OUTPUT_DIR, 'images')
 
